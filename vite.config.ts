@@ -7,7 +7,7 @@ const resolveRoot = (...pathSegments: string[]) =>
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/ads/",
   plugins: [react()],
   css: {
     preprocessorOptions: {
