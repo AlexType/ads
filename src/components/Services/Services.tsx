@@ -33,7 +33,7 @@ const Services: React.FC = () => {
           </div>
         ))}
       </div>
-      <img className={classes.svg} src="/img/service-bg.svg" />
+      <img className={classes.svg} src="https://alextype.github.io/ads/img/service-bg.svg" />
     </div>
   );
 };
