@@ -2,9 +2,8 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.scss";
 import App from "./App.tsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Admin/Layout/index.tsx";
-import Services from "./components/Admin/Services/index.tsx";
 import { defaultFaq, defaultFeedback, defaultServices } from "./const.ts";
 
 export type ServiceItem = {
@@ -14,20 +13,14 @@ export type ServiceItem = {
   text: string;
 };
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/ads",
+    path: "/",
     element: <App />,
   },
   {
-    path: "/ads/admin",
+    path: "/admin",
     element: <Layout />,
-    children: [
-      {
-        path: "",
-        element: <Services />,
-      },
-    ],
   },
 ]);
 

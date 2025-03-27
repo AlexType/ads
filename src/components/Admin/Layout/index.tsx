@@ -50,7 +50,7 @@ const Layout: React.FC = () => {
 
   const onClick: MenuProps["onClick"] = (e) => {
     if (e.key === "4") {
-      navigate("/ads");
+      navigate("/");
       return;
     }
 
