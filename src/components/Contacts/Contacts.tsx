@@ -1,5 +1,5 @@
 import React from "react";
-import { Input, Typography } from "antd";
+import { Button, Input, Typography } from "antd";
 
 const Contacts: React.FC = () => {
   const mail = "agr@mail.ru";
@@ -32,6 +32,9 @@ const Contacts: React.FC = () => {
         <div className="mt-2">
           <Typography.Text strong>Почта</Typography.Text>
           <Input size="large" placeholder="@mail.ru" />
+        </div>
+        <div className="mt-4">
+          <Button type="primary">Отправить</Button>
         </div>
       </div>
     </div>

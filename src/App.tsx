@@ -17,9 +17,7 @@ function App() {
         </div>
       </div>
       <div className="section-services" id="services">
-        <div className="container">
-          <Services />
-        </div>
+        <Services />
       </div>
       <div className="section-stats py-5">
         <div className="container">
@@ -27,8 +25,8 @@ function App() {
         </div>
       </div>
       <div className="section-faq py-5" id="feedback">
+        <Feedback />
         <div className="container">
-          <Feedback />
           <div className="mt-5">
             <FAQ />
           </div>
