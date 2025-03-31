@@ -1,4 +1,5 @@
 import "./App.scss";
+import Bloggers from "./components/Bloggers";
 import Contacts from "./components/Contacts/Contacts";
 import FAQ from "./components/FAQ";
 import Feedback from "./components/Feedback";
@@ -18,6 +19,9 @@ function App() {
       </div>
       <div className="section-services" id="services">
         <Services />
+      </div>
+      <div className="section-bloggers"  >
+        <Bloggers />
       </div>
       <div className="section-stats py-5">
         <div className="container">

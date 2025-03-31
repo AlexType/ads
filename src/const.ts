@@ -249,3 +249,69 @@ export const defaultFeedback: FeedbackItem[] = [
     rating: 5,
   },
 ];
+
+export const bloggers = [
+  {
+    id: 1,
+    name: "MelStroy",
+    img: "https://news.store.rambler.ru/img/cef567f69d6ea190e3602116feb29c86?img-format=auto&img-1-resize=height:730",
+    platforms: ["YouTube", "Twitch"],
+    description:
+      "Российский стример и ютубер, известен провокационными роликами, скетчами и стримами с резкими высказываниями.",
+    social_links: {
+      youtube: "https://www.youtube.com/@melstroy",
+      twitch: "https://www.twitch.tv/melstroy",
+      telegram: "https://t.me/melstroy",
+    },
+    category: "Развлечения",
+    testimonial:
+      "«Ваш сайт — это как мой стрим: либо хейтят, либо обожают. Но без разницы, ведь хайп идёт! Кстати, когда рекламные бабки?»",
+  },
+  {
+    id: 2,
+    name: "Папич",
+    img: "https://avatars.mds.yandex.net/i?id=a90918aff5e9f1d2d4c1eaaefdd729df_l-9069268-images-thumbs&ref=rim&n=13&w=1280&h=690",
+    platforms: ["YouTube", "Twitch"],
+    description:
+      "Популярный украинский стример и ютубер, известен стримами по Dota 2 и юмористическим контентом.",
+    social_links: {
+      youtube: "https://www.youtube.com/@papech",
+      twitch: "https://www.twitch.tv/papech",
+      vk: "https://vk.com/papech",
+    },
+    category: "Игры",
+    testimonial:
+      "«Сайт норм, но вот только... ЭЭЭЭ, КУДА УЕХАЛ КУРСОР?! Ладно, работаем дальше. Где мои 25 кадры?»",
+  },
+  {
+    id: 3,
+    name: "Kuplinov",
+    img: "https://i.pinimg.com/736x/6a/74/4a/6a744a064a39b65df6a0a22087040b3d.jpg",
+    platforms: ["YouTube"],
+    description:
+      "Российский летсплейщик, известен эмоциональными прохождениями хоррор-игр и мемами.",
+    social_links: {
+      youtube: "https://www.youtube.com/@Kuplinov",
+      vk: "https://vk.com/kuplinovplay",
+    },
+    category: "Игры",
+    testimonial:
+      "«АААА! ЧТО ЭТО ЗА САЙТ?! *кричит* О... Это же наш коллаб. Ну тогда всё окей, можно расслабиться. Или нет?»",
+  },
+  {
+    id: 4,
+    name: "Эльдар Джарахов",
+    img: "https://avatars.mds.yandex.net/i?id=5f3968ead4efb61f471402f81842ef913adda8c3-4302779-images-thumbs&n=13",
+    platforms: ["YouTube", "Twitch"],
+    description:
+      "Бывший участник «КликКлак», сейчас — стример и ютубер, создает развлекательный контент и обзоры.",
+    social_links: {
+      youtube: "https://www.youtube.com/@dzharakhov",
+      twitch: "https://www.twitch.tv/dzharakhov",
+      instagram: "https://www.instagram.com/dzharakhov/",
+    },
+    category: "Развлечения",
+    testimonial:
+      "«Ты серьёзно сделал раздел со мной? Ну ладно... Главное, чтобы меня не спутали с тем парнем из 2016 года!»",
+  },
+];
