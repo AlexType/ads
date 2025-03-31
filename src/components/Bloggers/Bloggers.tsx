@@ -9,7 +9,7 @@ const Bloggers: React.FC = () => {
   return (
     <div className={clsx(classes.container, "p-5")}>
       <Typography.Title level={2} className="text-center">
-        Блогерами с которыми мы работаем
+        Блогеры с которыми мы работаем
       </Typography.Title>
       <div className={clsx("row mt-5", classes.row)}>
         {bloggers.map((blogger) => (
